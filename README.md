@@ -19,7 +19,7 @@ Navigate to http://localhost:8081 and set a password and finish initialization w
 **Step 3**: Configure repositories
 
 Login with an admin account to JFrog and go to "Admin -> Advanced -> Config Descriptor" and overwrite
-the content with the content from the file in the repository `config-descriptor.xml`.
+with the content from the file in the repository `config-descriptor.xml`.
 
 **Step 4**: Configure your maven to use the proxy
 
