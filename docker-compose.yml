@@ -5,7 +5,6 @@ volumes:
   data-jfrog: {}
 
 services:
-
   jfrog:
     image: docker.bintray.io/jfrog/artifactory-oss:latest
     container_name: jfrog-proxy
@@ -16,4 +15,3 @@ services:
       - data-jfrog:/var/opt/jfrog/artifactory
     ports:
       - 8081:8081
-
