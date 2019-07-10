@@ -12,7 +12,7 @@ cd docker-jfrog-proxy
 docker-compose up -d
 ```
 
-**Step 2**: Set an admin password
+**Step 2**: Initial setup
 
 Navigate to http://localhost:8081 and set a password and finish initialization wizard.
 
@@ -34,4 +34,4 @@ cd opennms
 ```
 
 The first run downloads all artifacts from the internet and can take a while.
-Any following build will run against a populated cache is served quickly over localhost.
+Any following build will run against a populated cache which is served quickly over localhost.
