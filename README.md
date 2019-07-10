@@ -1,4 +1,4 @@
-# Frog as a local Maven proxy building OpenNMS
+# JFrog as a local Maven proxy building OpenNMS
 
 This repository is used to setup a local JFrog instance to cache Maven artifacts which are downloaded during a build from OpenNMS.
 
